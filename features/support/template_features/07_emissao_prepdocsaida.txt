@@ -1,0 +1,15 @@
+#language:pt
+   @Regressivo_ERP
+   @logistica
+   Funcionalidade: Emissão de NF
+
+      @PrepDocSaida 
+      Esquema do Cenário: Prepar documento de saida no Protheus
+         Dado que o usuário acesse o protheus 
+         E efetuar login com usuario e senha
+         E acessar o ambiente de faturamento da empresa "<empresa>"
+         E acessar a tela de preparacao de doc de saida
+         Quando selecionar o range de pedidos
+          Então As notas Fiscais dos Pedidos de Vendas são geradas com Sucesso "<empresa>"
+      Exemplos:  
+         | empresa |

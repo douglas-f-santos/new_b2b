@@ -1,0 +1,96 @@
+---
+url: https://qa.snd.com.br
+user: douglas.ferreira@snd.com.br
+pass: D12m02
+userb: teste01
+passb: "@1234"
+userc: teste02
+passc: "@1234"
+userd: alan.machado
+passd: '654321'
+baseold: TOTVS12_D30
+base: TOTVS12_QA
+amb_financeiro: '06'
+amb_compras: '02'
+amb_faturamento: '05'
+amb_estoque_custo: '04'
+amb_loc_equip: '97'
+filial_0101: '0101'
+filial_0111: '0111'
+filial_0104: '0104'
+filial_0116: '0116'
+filial_0119: '0119'
+filial_0601: '0601'
+descricao: CSD
+tipo: ME
+unidade: UN
+cod_cat: '1'
+cod_sub_cat: ACESSORIO DESKTOP
+cod_fornec: ACE
+cod_origem: '0'
+cod_nat_opera: '1'
+desc_nfe: Produto Teste
+peso_bruto: '1'
+altura: '1'
+largura: '1'
+comprimento: '1'
+armazem_prod: '01'
+cod_fornecedor: '259500'
+cod_material: 81MA001BBR
+cod_pagamento: '941'
+filial_entrega: '0119'
+contato: teste
+tipo_operacao: '10'
+quantidade: '10'
+vlr_unitario: '100,00'
+tipo_entrada: '001'
+armazem: '19'
+cod_produto: ECU-00002SN BRL
+filial_nf: '0119000259077'
+nf: '000259077'
+acessar_crm: http://srvcrmdev01:5555/CRMD30
+crm_cod_cli: '236595'
+crm_cod_pag: '28'
+acessar_liberacao_gerencial: http://srv1016/liberacaopedidod30/wwpbaseobjects.seclogin.aspx
+pedido_venda: '1427305'
+material: 11DU0020BP
+user_lib_ger: administrador
+pass_lib_ger: sndsp01credito
+acessar_liberacao_credito: http://srv1016/liberacaocreditod30/wwpbaseobjects.seclogin.aspx
+user_lib_cred: administrador
+pass_lib_cred: sndsp01credito
+id_user: '000284'
+id_grupo: '000010'
+doc_origem: '10'
+nf_inicio_0101: '000062382'
+nf_fim_0101: '000062388'
+nf_inicio_0104: '000048720'
+nf_fim_0104: '000048720'
+nf_inicio_0111: '000092805'
+nf_fim_0111: '000092808'
+nf_inicio_0112: '000000000'
+nf_fim_0112: '000000000'
+nf_inicio_0116: '000207736'
+nf_fim_0116: '000207800'
+nf_inicio_0119: '000010089'
+nf_fim_0119: '000010090'
+nf_inicio_0121: '000000000'
+nf_fim_0121: '000000000'
+nf_inicio_0122: '000000000'
+nf_fim_0122: '000000000'
+reduzir_dias: 2
+falhas_crm: executar
+cod_prod_ME: 338173845BRL TF
+cod_prod_SV: 498788724BRL TF
+cod_ped_ME: 571
+cod_ped_SV: 571
+cod_alt: AC1MONTHP
+email: leonardo.mcclure@boyle.org
+cod_forn: 3018
+Dcod_proj: '202200346             '
+cod_proj: '202200347             '
+codigo_ben: 395866560EQP TST
+cod_ped_fsrental: '000581'
+pass_new: XcP4vEdXf4@Aa
+pass_guest: IhAdQn4@Aa
+email_guest: january_hoeger@pfeffer.co.uk

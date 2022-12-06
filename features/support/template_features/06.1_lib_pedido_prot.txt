@@ -1,0 +1,16 @@
+#language:pt
+   @Regressivo_ERP
+   @logistica
+   Funcionalidade: Liberar Pedido
+
+      @ConsultarPedidoVendaProt @B4 
+      Esquema do Cenário: Consultar Pedidos de Venda no Protheus
+         Dado que o usuário acesse o protheus 
+         E efetuar login com usuario e senha
+         E acessar o ambiente de faturamento da empresa "<empresa>"
+         E acessar a tela de cadastro de liberacao de pedidos
+         Quando consultar os pedidos "<pedido>"
+         E liberar pedido no Protheus
+         Então o pedido será consultado com sucesso "<pedido>"
+      Exemplos:  
+        | id  | pedido    | empresa     | 

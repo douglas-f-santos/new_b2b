@@ -1,0 +1,66 @@
+cliente_revenda;nome;cnpj;email;senha;data_hora
+Revenda;Heathcote, Reinger and Conroy;10.849.461/0001-97;cami@shieldsbergstrom.co.uk;XcP4vEdXf4@Aa;20221125092450
+Revenda;Hagenes, Williamson and Eichmann;64.302.923/0001-80;marlon@von.name;XcP4vEdXf4@Aa;20221125092747
+Revenda;Gleichner-Schowalter;37.348.181/0001-51;janetta@shanahan.biz;XcP4vEdXf4@Aa;20221125092747
+Revenda;Schroeder Group;96.747.435/0001-73;rhiannon_douglas@gusikowski.ca;XcP4vEdXf4@Aa;20221125092747
+Revenda;Fisher-Kohler;92.100.418/0001-99;melani@hamill.co.uk;XcP4vEdXf4@Aa;20221125092747
+Revenda;Waelchi-Walter;67.547.456/0001-47;vera_kautzer@heathcote.co.uk;XcP4vEdXf4@Aa;20221125092747
+Revenda;Altenwerth LLC;94.410.947/0001-14;chantelle@leuschke.com;XcP4vEdXf4@Aa;20221125092747
+Cliente da Revenda;Tijuana Gutmann;81.489.500/0001-30;tera@aufderhar.biz;XcP4vEdXf4@Aa;20221125092747
+Cliente da Revenda;Lavinia Muller;19.999.871/0001-99;liberty.doyle@kutch.com;XcP4vEdXf4@Aa;20221125092747
+Cliente da Revenda;Reita Stokes;76.943.433/0001-42;ema@weissnatlegros.com;XcP4vEdXf4@Aa;20221125092747
+Cliente da Revenda;Claude Rempel;12.109.072/0001-50;patience@kozeybernier.us;XcP4vEdXf4@Aa;20221125092747
+Cliente da Revenda;Kerri Rowe;27.066.706/0001-02;latarsha@cartwright.name;XcP4vEdXf4@Aa;20221125092747
+Revenda;Hintz-Mosciski;75.642.017/0001-41;sharron@carter.ca;XcP4vEdXf4@Aa;20221125095501
+Revenda;Grimes, Reinger and Schmidt;87.439.395/0001-01;cole@osinski.com;XcP4vEdXf4@Aa;20221125095501
+Revenda;Rice Inc;41.461.423/0001-96;eda.fahey@tillman.ca;XcP4vEdXf4@Aa;20221125095501
+Revenda;Bernier Inc;91.982.776/0001-00;peggy.gutkowski@emard.ca;XcP4vEdXf4@Aa;20221125095501
+Revenda;Rogahn-Dooley;64.704.682/0001-04;corliss@cole.biz;XcP4vEdXf4@Aa;20221125095501
+Revenda;Satterfield Group;37.411.552/0001-00;christian_raynor@brown.ca;XcP4vEdXf4@Aa;20221125095501
+Revenda;Bode and Sons;94.660.532/0001-07;shantay.runte@renner.biz;XcP4vEdXf4@Aa;20221125095501
+Cliente da Revenda;Renay Rath;84.119.869/0001-40;carly@hettinger.name;XcP4vEdXf4@Aa;20221125095501
+Cliente da Revenda;Grace Haag;77.709.836/0001-94;franklin.grady@kerlukeglover.name;XcP4vEdXf4@Aa;20221125095501
+Cliente da Revenda;Nidia Collins;16.715.499/0001-53;luis_wehner@kassulke.biz;XcP4vEdXf4@Aa;20221125095501
+Cliente da Revenda;Ashly Keeling;74.609.710/0001-50;antonia@champlin.com;XcP4vEdXf4@Aa;20221125095501
+Cliente da Revenda;Raquel Yost;80.324.532/0001-13;juan@spencer.info;XcP4vEdXf4@Aa;20221125095501
+Cliente da Revenda;Shera Gerhold;63.286.123/0001-50;kristi_dietrich@mrazreinger.name;XcP4vEdXf4@Aa;20221128152227
+Cliente da Revenda;Bobbie Bauch;31.620.465/0001-79;morris@little.info;XcP4vEdXf4@Aa;20221128152227
+Cliente da Revenda;Veronica Ankunding;23.214.862/0001-12;nadia_feil@roob.info;XcP4vEdXf4@Aa;20221128152227
+Cliente da Revenda;Elvira Keeling;48.553.636/0001-97;genny_jakubowski@kuhlman.name;XcP4vEdXf4@Aa;20221128153916
+Cliente da Revenda;Alton Willms;39.098.598/0001-39;gisela@connelly.co.uk;XcP4vEdXf4@Aa;20221128153916
+Cliente da Revenda;Terri Orn;53.051.022/0001-47;timothy@mosciski.com;XcP4vEdXf4@Aa;20221128153916
+Cliente da Revenda;Lidia Littel;50.646.550/0001-50;forest.romaguera@wintheiser.co.uk;XcP4vEdXf4@Aa;20221128155513
+Cliente da Revenda;Perry Schneider;41.621.989/0001-38;carley.jacobson@stammparisian.info;XcP4vEdXf4@Aa;20221128155513
+Cliente da Revenda;Andres Kassulke;53.611.885/0001-21;tonie.miller@hickle.co.uk;XcP4vEdXf4@Aa;20221128155513
+Cliente da Revenda;Carlo Tremblay;44.997.620/0001-12;xavier.prohaska@powlowski.co.uk;XcP4vEdXf4@Aa;20221128161903
+Cliente da Revenda;Sheba Okuneva;58.073.931/0001-08;marion_pollich@abbott.us;XcP4vEdXf4@Aa;20221128161903
+Cliente da Revenda;Detra Adams;14.635.076/0001-06;julianne@schoen.biz;XcP4vEdXf4@Aa;20221129092708
+Cliente da Revenda;Coreen Hermann;04.562.284/0001-60;jeanene@hermiston.ca;XcP4vEdXf4@Aa;20221129120856
+Cliente da Revenda;Katlyn Carter;35.284.101/0001-16;douglas@streich.info;XcP4vEdXf4@Aa;20221129121244
+Cliente da Revenda;Janean Roob;46.639.496/0001-49;cheryl_osinski@nitzschefay.name;XcP4vEdXf4@Aa;20221129121244
+Cliente da Revenda;Kellye Stanton;61.389.098/0001-05;tiffany@blanda.biz;XcP4vEdXf4@Aa;20221129121244
+Revenda;Schowalter-Lakin;56.130.658/0001-72;wm.windler@sanford.co.uk;XcP4vEdXf4@Aa;20221129125030
+Revenda;Rolfson-Stokes;32.703.279/0001-66;jeanie@goyettewolf.us;XcP4vEdXf4@Aa;20221129125030
+Revenda;Price-Trantow;97.674.622/0001-37;eldridge@hintz.com;XcP4vEdXf4@Aa;20221129125030
+Revenda;Schimmel, Shields and Brown;35.678.934/0001-61;erlinda@heaney.co.uk;XcP4vEdXf4@Aa;20221129125030
+Revenda;Rosenbaum, Leuschke and Reichel;06.016.132/0001-98;shawna@labadie.com;XcP4vEdXf4@Aa;20221129125030
+Revenda;Balistreri-Tremblay;84.347.705/0001-70;dario.pollich@leschkuvalis.biz;XcP4vEdXf4@Aa;20221129125030
+Revenda;Bode, Rempel and Mosciski;24.321.473/0001-59;elsa@berge.name;XcP4vEdXf4@Aa;20221129132341
+Revenda;Kub, Kertzmann and Simonis;57.779.128/0001-12;trudie_steuber@ryan.info;XcP4vEdXf4@Aa;20221129132341
+Revenda;Wolf Group;72.037.150/0001-80;alexis_shields@parker.ca;XcP4vEdXf4@Aa;20221129132341
+Revenda;Terry-Walker;07.143.728/0001-11;sammie@romaguera.us;XcP4vEdXf4@Aa;20221129132341
+Revenda;Daniel, Anderson and Jones;90.314.207/0001-23;mireille@collinsratke.biz;XcP4vEdXf4@Aa;20221129132341
+Revenda;Mills, Becker and Lesch;60.884.760/0001-30;dannette@turner.us;XcP4vEdXf4@Aa;20221129132341
+Cliente da Revenda;Lily Feeney;23.327.449/0001-64;roger@bednarmarquardt.ca;XcP4vEdXf4@Aa;20221129132341
+Cliente da Revenda;Corinna Heller;69.913.684/0001-19;sudie_torp@lynch.co.uk;XcP4vEdXf4@Aa;20221129132341
+Cliente da Revenda;Madeleine Christiansen;32.526.266/0001-69;roberta@swaniawski.com;XcP4vEdXf4@Aa;20221129132341
+Cliente da Revenda;Earle Christiansen;83.232.824/0001-14;cruz@mullerjohns.info;XcP4vEdXf4@Aa;20221129132341
+Cliente da Revenda;Margarito Altenwerth;97.937.446/0001-89;aleen_thiel@hagenesledner.biz;XcP4vEdXf4@Aa;20221129132341
+Cliente da Revenda;Erasmo Walter;90.480.840/0001-91;irma@brownrice.co.uk;XcP4vEdXf4@Aa;20221129132341
+Revenda;Fisher, Kreiger and Lesch;42.571.259/0001-32;faviola_bechtelar@stoltenberg.biz;XcP4vEdXf4@Aa;20221129144441
+Revenda;Oga, Zieme and Dare;87.209.857/0001-02;chassidy_hyatt@white.biz;XcP4vEdXf4@Aa;20221129144441
+Revenda;Welch-Breitenberg;12.540.669/0001-55;matt@friesen.co.uk;XcP4vEdXf4@Aa;20221129144441
+Revenda;Crist Group;46.577.271/0001-05;nereida_pfannerstill@whitedach.ca;XcP4vEdXf4@Aa;20221129144441
+Revenda;Schmidt Inc;99.023.596/0001-02;dorie@marquardt.us;XcP4vEdXf4@Aa;20221129144441
+Revenda;Fisher Group;83.780.831/0001-50;willy@watersbayer.ca;XcP4vEdXf4@Aa;20221129144441
+Revenda;McLaughlin-Jerde;95.122.698/0001-24;lashandra@king.name;XcP4vEdXf4@Aa;20221129144441

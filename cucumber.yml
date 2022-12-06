@@ -1,0 +1,11 @@
+---
+default: --no-source --color --profile pretty  -p 12_1_27_BD -p headless -p html -p json 
+
+pretty: --format pretty
+ci: --format progress
+12_1_27_BD: AMBIENTE=12_1_27_BD
+chrome: BROWSER=chrome
+headless: BROWSER=headless
+firefox: BROWSER=firefox
+html: --format html --out=results/report.html
+json: --format json --out=results/report.json

@@ -1,0 +1,83 @@
+Pedido;Tipo de Venda;Forma de Pagamento;Condição de Pagamento;val_com_comissao;data_hora
+7006469;empresa_uso_consumo;BNDES;;;20221125092747
+7006470;empresa_comercializacao;Boleto Santander;;;20221125092747
+7006471;cliente_n_cadastrado;Boleto Santander;;;20221125092747
+7006472;cliente_cadastrado;Deposito bancário;;;20221125092747
+7006473;empresa_uso_consumo;Faturado;14 dias;20221125092747
+7006474;empresa_comercializacao;Faturado;21 dias;20221125092747
+7006475;cliente_cadastrado;Faturado;28 dias;20221125092747
+7006476;cliente_n_cadastrado;Faturado;28 dias;20221125092747
+7006477;empresa_uso_consumo;Faturado;21/28/35;20221125092747
+7006478;empresa_comercializacao;Faturado;15/35 DDL;20221125092747
+7006479;cliente_n_cadastrado;Faturado;45 dias;20221125092747
+7006480;empresa_uso_consumo;PagSeguro;45 dias;20221125092747
+7006481;empresa_comercializacao;PagSeguro;45 dias;20221125092747
+7006482;cliente_n_cadastrado;PagSeguro;45 dias;20221125092747
+7006483;empresa_uso_consumo;PagSeguro;45 dias;20221125092747
+7006484;empresa_uso_consumo;PagSeguro;45 dias;20221125092747
+7006485;empresa_comercializacao;PagSeguro;45 dias;20221125092747
+7006486;cliente_n_cadastrado;PagSeguro;45 dias;20221125092747
+7006487;empresa_uso_consumo;PagSeguro;45 dias;20221125092747
+7006488;empresa_uso_consumo;BNDES;;;20221125095501
+7006489;empresa_comercializacao;Boleto Santander;;;20221125095501
+7006490;cliente_n_cadastrado;Boleto Santander;;;20221125095501
+7006491;cliente_cadastrado;Deposito bancário;;;20221125095501
+7006492;empresa_uso_consumo;Faturado;14 dias;20221125095501
+7006493;empresa_comercializacao;Faturado;21 dias;20221125095501
+7006494;cliente_cadastrado;Faturado;28 dias;20221125095501
+7006495;cliente_n_cadastrado;Faturado;28 dias;20221125095501
+7006496;empresa_uso_consumo;Faturado;21/28/35;20221125095501
+7006497;empresa_comercializacao;Faturado;15/35 DDL;20221125095501
+7006498;cliente_n_cadastrado;Faturado;45 dias;20221125095501
+7006499;empresa_uso_consumo;PagSeguro;45 dias;20221125095501
+7006500;cliente_n_cadastrado;PagSeguro;45 dias;20221125095501
+7006501;empresa_uso_consumo;PagSeguro;45 dias;20221125095501
+7006502;empresa_comercializacao;PagSeguro;45 dias;20221125095501
+7006503;cliente_n_cadastrado;PagSeguro;45 dias;20221125095501
+7006504;empresa_uso_consumo;PagSeguro;45 dias;20221125095501
+7006505;cliente_cadastrado;Deposito bancário;;;20221127141838
+7006506;cliente_cadastrado;Deposito bancário;;20221127141838
+7006507;cliente_cadastrado;Deposito bancário;;20221127141838
+7006508;cliente_cadastrado;Deposito bancário;;20221127141838
+7006509;cliente_cadastrado;Deposito bancário;;20221127143140;1248,74
+7006510;cliente_cadastrado;Deposito bancário;;;2497,4820221127143547
+7006511;cliente_cadastrado;Deposito bancário;;;1152,6820221127143547
+7006512;cliente_cadastrado;Deposito bancário;;;9605700000960,5720221127143547
+7006513;empresa_uso_consumo;BNDES;;;Produto e Serviço;20221127153430
+7006514;empresa_uso_consumo;BNDES;;;Produto e Serviço;20221127153642
+7006515;empresa_uso_consumo;BNDES;;;Produto e Serviço;20221127154417
+7006516;empresa_uso_consumo;BNDES;;;Produto e Serviço;20221128151350
+7006517;empresa_uso_consumo;BNDES;;;Produto e Serviço;20221128151759
+7006534;cliente_cadastrado;Deposito bancário;;1248,74;;20221128161903
+7006535;cliente_n_cadastrado;Boleto Santander;;1152,68;;20221128161903
+7006536;cliente_cadastrado;Deposito bancário;;10566,27;;20221128161903
+7006537;cliente_cadastrado;BNDES;;2497,48;;20221128161903
+7006538;cliente_cadastrado;Boleto Santander;;1152,68;;20221128161903
+7006539;cliente_n_cadastrado;Boleto Santander;;1440,86;;20221128161903
+7006540;cliente_cadastrado;Deposito bancário;;1632,97;;20221128161903
+7006542;cliente_cadastrado;Deposito bancário;;1248,74;;20221129092708
+7006543;cliente_cadastrado;Deposito bancário;;10566,27;;20221129092708
+7006545;cliente_cadastrado;Deposito bancário;;1248,74;;20221129120856
+7006546;cliente_cadastrado;Deposito bancário;;2497,48;;20221129121244
+7006547;cliente_cadastrado;Deposito bancário;;21132,54;;20221129121244
+7006548;cliente_cadastrado;BNDES;;2497,48;;20221129121244
+7006549;cliente_cadastrado;Boleto Santander;;1152,68;;20221129121244
+7006550;cliente_cadastrado;Deposito bancário;;3265,94;;20221129121244
+7006551;empresa_uso_consumo;BNDES;;;Produto e Serviço;20221129132341
+7006552;empresa_uso_consumo;BNDES;;;Serviço;20221129132341
+7006553;cliente_cadastrado;Deposito bancário;;;Serviço;20221129132341
+7006554;empresa_uso_consumo;BNDES;;;Produto;20221129132341
+7006555;empresa_comercializacao;Boleto Santander;;;Produto;20221129132341
+7006556;cliente_cadastrado;Deposito bancário;;;Produto;20221129132341
+7006557;empresa_uso_consumo;Faturado;14 dias;;Serviço;20221129132341
+7006558;empresa_comercializacao;Faturado;21 dias;;Serviço;20221129132341
+7006559;cliente_cadastrado;Faturado;28 dias;;Serviço;20221129132341
+7006560;empresa_uso_consumo;Faturado;21/28/35;;Serviço;20221129132341
+7006561;empresa_comercializacao;Faturado;15/35 DDL;;Serviço;20221129132341
+7006562;empresa_uso_consumo;Faturado;14 dias;;Produto;20221129132341
+7006563;empresa_uso_consumo;PagSeguro;14 dias;;Serviço;20221129132341
+7006564;empresa_comercializacao;PagSeguro;14 dias;;Serviço;20221129132341
+7006565;empresa_uso_consumo;PagSeguro;14 dias;;Serviço;20221129132341
+7006566;empresa_uso_consumo;PagSeguro;14 dias;;Serviço;20221129132341
+7006567;empresa_comercializacao;PagSeguro;14 dias;;Serviço;20221129132341
+7006568;empresa_uso_consumo;PagSeguro;14 dias;;Serviço;20221129132341

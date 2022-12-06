@@ -1,0 +1,14 @@
+#language:pt
+   @Regressivo_ERP
+   @logistica
+   Funcionalidade: Emissão de NF
+
+      @ImprimirSefaz @B4
+      Esquema do Cenário: Liberar Nfe na Sefaz
+         Dado que o usuário acesse o protheus 
+         E efetuar login com usuario e senha
+         E acessar o ambiente de faturamento da empresa "<empresa>" 
+         E acessar a tela nfe sefaz
+         Quando imprimir notas fiscais "<empresa>" 
+      Exemplos:  
+         | empresa |

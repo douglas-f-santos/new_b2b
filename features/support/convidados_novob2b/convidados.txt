@@ -1,0 +1,11 @@
+nome;email;senha;efetuar_compra;acessar_comissoes;visu_proprias_comissoes;acessar_status_pedido;visu_proprios_status;criar_convidado;limite_compra;data
+Wilmer Boyer;kathrin.wunsch@boyer.name;GkHb3QqOd84@Aa;sim;sim;sim;sim;sim;sim;3;20221129120101
+Lynetta Howell;williemae_lemke@hagenes.us;JpV0i9IpP4@Aa;sim;;sim;;sim;;2;20221129120101
+Euna Shanahan;reagan_ferry@kihnjenkins.biz;WwMbM374h4@Aa;;;sim;;sim;;2;20221129120101
+Katherin Reinger;rosalba_dare@gerlachlangosh.ca;5RoZtK4@Aa;;sim;sim;;;sim;2;20221129120101
+Rena Davis;aleta@fahey.co.uk;Ld2ZdOpS4@Aa;;;;;;;2;20221129120101
+Kaylene Considine;florence_kassulke@franeckirogahn.biz;Zv7KnRaR4@Aa;sim;sim;sim;sim;sim;sim;3;20221129120101
+Rossie Howell;song@waelchikilback.co.uk;Yo8GsMeZdE4@Aa;sim;;sim;;sim;;2;20221129120101
+Dalila Lemke;luisa.oga@reichel.ca;1ZwFbZd34@Aa;;;sim;;sim;;2;20221129120101
+Art Bergstrom;bess_boyle@fisher.com;Vs75Tp2JmE4@Aa;;sim;sim;;;sim;2;20221129120101
+Sydney Wiza;january_hoeger@pfeffer.co.uk;IhAdQn4@Aa;;;;;;;2;20221129120101

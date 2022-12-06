@@ -1,0 +1,12 @@
+#language:pt
+   Funcionalidade: Liberação de Credito
+
+      @LiberacaoCredito @GerarPedidoAvista
+      Esquema do Cenário: Gerente liberar credito do pedido
+         Dado que o usuário acesse a liberação de credito 
+         E efetue o login no portal de credito
+         E acessar o pedido no portal de credito "<n_pedido>" "<tp_pedido>" 
+         Quando liberar o crédito do pedido "<n_pedido>" "<tp_pedido>" "<cod_banco>"
+         Então o crédito do pedido é liberado com sucesso "<n_pedido>"
+      Exemplos:  
+        | id  | n_pedido  | tp_pedido              | cod_banco  |

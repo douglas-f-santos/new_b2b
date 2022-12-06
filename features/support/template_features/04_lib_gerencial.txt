@@ -1,0 +1,12 @@
+#language:pt
+   Funcionalidade: Liberação de Pedido
+
+      @CRM @LiberacaoGerente
+      Esquema do Cenário: Gerente Liberar Pedido Venda do CRM
+         Dado que o usuário acesse o liberação de pedido 
+         E efetue o login no portal
+         E consultar um pedido "<pedido>", "<tp_ocorrencia>"
+         Quando liberar o pedido
+         Então o pedido é liberado pelo gerente com sucesso
+      Exemplos:
+        | id  | tp_ocorrencia    | pedido    | tp_pedido          |    

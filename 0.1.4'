@@ -1,0 +1,9 @@
+Terminate batch job (Y/N)? 
+
+CLINK C:\SND\Novo B2B>};{# 
+
+CLINK C:\SND\Novo B2B>bindir="${0/*}" # 
+
+CLINK C:\SND\Novo B2B>exec "$bindir/ruby" "-x" "$0" "$@" # 
+
+CLINK C:\SND\Novo B2B>>,

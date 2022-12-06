@@ -1,0 +1,14 @@
+#language:pt
+  @Regressivo_ERP
+   @logistica
+   Funcionalidade: Liberar Pedido
+
+      @LiberarPedidoVendaProt @B0
+      Esquema do Cenário: Liberar Pedido de Venda no Protheus
+         Dado que o usuário acesse o protheus 
+         E efetuar login com usuario e senha
+         E acessar o ambiente de faturamento da empresa "<empresa>"
+         Quando integrar pedido de venda
+         Então o pedido está integrado com sucesso
+      Exemplos:           
+         | empresa |
