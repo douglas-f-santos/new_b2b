@@ -15,6 +15,7 @@ class SimuladorVenda < SitePrism::Page
      def simular_venda(uf, consumo_revenda, contribuinte)
             lnk_simular_venda.click
             find('#Estado > option[value="'+ uf +'"]').select_option
+
             case consumo_revenda 
                when 'C'
                   find('#Consumo > option[value="true"]').select_option   
@@ -41,6 +42,5 @@ class SimuladorVenda < SitePrism::Page
             preco_simulado = preco_simulado[3, preco_simulado.length] 
             preco_simulado = preco_simulado.gsub('.','')
             $preco_simulado = preco_simulado.gsub(',','.')
-            puts $preco_simulado
      end  
 end  

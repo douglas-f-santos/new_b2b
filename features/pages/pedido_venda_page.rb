@@ -43,7 +43,7 @@ class Pedido_venda < SitePrism::Page
     #-------------------------------------------------------------------#
 
      def initialize
-          @cadastro = Cadastro.new
+            @cadastro = Cadastro.new
 
      end  
        
@@ -90,6 +90,7 @@ class Pedido_venda < SitePrism::Page
             tipo_fat_uso = tipo_fat + '_' + tipo_uso
             email = FFaker::Internet.email
             $tipo_fat_uso = tipo_fat_uso
+
             case tipo_fat_uso
             when 'empresa_uso_consumo'
                   find('#checkout_attribute_1 > option[value="1"]').select_option  
@@ -133,14 +134,15 @@ class Pedido_venda < SitePrism::Page
                   sleep 2
                   btn_continuar.click
             end
-
      end
   
      def checkout_parte1
             btn_continuar.click
+
             if page.has_css?('label[for="shippingoption_0"]') then
                   btn_continuar.click
             end 
+
             if page.has_css?('label[for="paymentmethod_0"]') then
             end             
      end
@@ -153,6 +155,7 @@ class Pedido_venda < SitePrism::Page
 
      def opcao_pagamento(opcoes_pagamento)
              $opcoes_pagamento = opcoes_pagamento
+
              case opcoes_pagamento
               when 'BNDES'
                     rdb_op_pagto_bnds.click
@@ -170,10 +173,14 @@ class Pedido_venda < SitePrism::Page
      def opcao_faturado(opcoes_pagamento,cond_pagto)
             $opcoes_pagamento = opcoes_pagamento
             $cond_pagto = cond_pagto
+
             if opcoes_pagamento == 'Faturado' then
+
                   if page.has_css?('label[for="paymentmethod_3"]') then
                   end      
+
                   btn_continuar.click
+
                   case cond_pagto
                   when '14 dias'
                         rdb_cond_pagto_14.click
@@ -193,9 +200,12 @@ class Pedido_venda < SitePrism::Page
    
      def checkout_parte2(opcoes_pagamento)
             btn_continuar.click
+
             if opcoes_pagamento == 'BNDES' then
+
                      if page.has_css?('#BNDES1078') then
                      end    
+
                      rdb_avista_bnds.click  
                      btn_continuar.click
                      sleep 6
@@ -262,10 +272,15 @@ class Pedido_venda < SitePrism::Page
             end     
             
             descricao = ';' + $tipo_fat_uso + ';' + $opcoes_pagamento + ';' + $cond_pagto
+   
             $execucao.push("#{pedido}#{descricao}#{';'}#{$valor_negociado}#{';'}#{prod_servico}#{';'}#{$data_hora}")
+   
             f = File.new("features/support/pedidos_novob2b/pedidos.txt", "a+")
+   
             $execucao.each { |line| f.puts(line) }
+   
             f.close
+   
             $execucao = []
      end 
 end  

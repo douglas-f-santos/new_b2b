@@ -57,7 +57,9 @@ class MinhaConta < SitePrism::Page
            $pass = pass_new + '4@Aa'
            CONFIG['email_guest'] = $email_faker
            CONFIG['pass_guest'] = $pass
+
            File.write("./features/support/ambientes/12_1_27_BD.yml", CONFIG.to_yaml)
+
            ipt_nome_con.set $nome_faker    
            ipt_email_con.set $email_faker
            ipt_senha_con.set $pass   
@@ -72,23 +74,28 @@ class MinhaConta < SitePrism::Page
            $visu_proprios_status = visu_proprios_status 
            $criar_convidado = criar_convidado 
        
-          if efetuar_compra == 'sim' then
+           if efetuar_compra == 'sim' then
                  $limite_compra = limite_compra
                  chk_efetuar_compra.click
                  ipt_limite_compra.set limite_compra   
            end
+           
            if acessar_comissoes  == 'sim' then
                  chk_acessar_comissoes.click  
            end                    
+           
            if visu_proprias_comissoes  == 'sim' then
                 chk_visu_proprias_comissoes.click   
            end                            
+           
            if acessar_status_pedido  == 'sim' then
                 chk_acessar_status_pedido.click 
            end             
+           
            if visu_proprios_status  == 'sim' then
                 chk_visu_proprios_status.click 
            end                              
+           
            if criar_convidado  == 'sim' then
               chk_criar_convidado.click 
            end                              
@@ -110,11 +117,13 @@ class MinhaConta < SitePrism::Page
            btn_minha_conta.hover
            btn_entrar_login.click
            ipt_email_login.set user
+           
            if pass == "SenhaCorreta" then
                   ipt_senha_login.set CONFIG['pass_new']
            else
                   ipt_senha_login.set pass   
            end   
+           
            btn_entrar.click
     end   
 
@@ -138,61 +147,61 @@ class MinhaConta < SitePrism::Page
     end   
     
     def esqueci_minha_senha
-          btn_minha_conta.hover
-          btn_entrar_login.click
-          btn_esqueci_minha_senha.click
+           btn_minha_conta.hover
+           btn_entrar_login.click
+           btn_esqueci_minha_senha.click
     end   
 
     def acessar_usuario
-          btn_minha_conta.hover
-          btn_acessar_usuario.click
+           btn_minha_conta.hover
+           btn_acessar_usuario.click
     end 
     
     def alterar_senha
-         lnk_alterar_senha.click
+           lnk_alterar_senha.click
     end
 
     def preencher_nova_senha
-          ipt_senha_antiga.set CONFIG['pass_new']
-          pass_new = Faker::Internet.password(min_length: 6, max_length: 10) 
-          pass = pass_new + '4@Aa'
-          CONFIG['pass_new'] = pass
-          File.write("./features/support/ambientes/12_1_27_BD.yml", CONFIG.to_yaml)
-          ipt_senha_nova.set pass
-          ipt_confirmar_senha.set pass
-          btn_alterar_senha.click
+           ipt_senha_antiga.set CONFIG['pass_new']
+           pass_new = Faker::Internet.password(min_length: 6, max_length: 10) 
+           pass = pass_new + '4@Aa'
+           CONFIG['pass_new'] = pass
+           File.write("./features/support/ambientes/12_1_27_BD.yml", CONFIG.to_yaml)
+           ipt_senha_nova.set pass
+           ipt_confirmar_senha.set pass
+           btn_alterar_senha.click
     end   
 
     def buscar_user_delete
-         email = CONFIG['email_guest']
-         i = 1
-         j = 1
-         qtd = lista_convidados.length
-            while i < 99  do
-               if lista_convidados[i].text == email then
-                     find('tr:nth-child('+j.to_s+') > td:nth-child(3) > a.link-vermelho.link-excluir').click
-                       if page.has_css?('input[value="'+email+'"]') then
-                            btn_confirmar_exclusao.click
-                       end    
-               end          
-               j +=1 
-               i +=3
-          end
+           email = CONFIG['email_guest']
+           i = 1
+           j = 1
+           qtd = lista_convidados.length
+              while i < 99  do
+                 if lista_convidados[i].text == email then
+                       find('tr:nth-child('+j.to_s+') > td:nth-child(3) > a.link-vermelho.link-excluir').click
+                         if page.has_css?('input[value="'+email+'"]') then
+                              btn_confirmar_exclusao.click
+                         end    
+                 end          
+                 j +=1 
+                 i +=3
+              end
     end
 
     def buscar_user_editar
-          $email = CONFIG['email_guest']
-          i = 1
-          j = 1
-          qtd = lista_convidados.length
-             while i < qtd  do
-                if lista_convidados[i].text == $email then
-                     find('tr:nth-child('+j.to_s+') > td:nth-child(3) > a.link-azul-escuro.link-editar').click
-
-                end          
-             j +=1 
-             i +=3
-             end
+           $email = CONFIG['email_guest']
+           i = 1
+           j = 1
+           qtd = lista_convidados.length
+              while i < qtd  do
+                 if lista_convidados[i].text == $email then
+                      find('tr:nth-child('+j.to_s+') > td:nth-child(3) > a.link-azul-escuro.link-editar').click
+ 
+                 end          
+              j +=1 
+              i +=3
+              end
     end
 
     def salvar_edicao
@@ -220,7 +229,6 @@ class MinhaConta < SitePrism::Page
     def acessar_central_atendimento
            lnk_acessar_central.click
     end   
-
 
     def acessar_2bcloud
            lnk_acessar_2bcloud.click
@@ -256,12 +264,14 @@ class MinhaConta < SitePrism::Page
                      when 'Solicitado' 
                          value_status = 5
                 end         
+
                 case comissao
                      when 'Comissão SND'
                           value_emp = 1
                      when 'Comissão FSRental'
                           value_emp = 2
                 end          
+
                      ipt_data_inicio_comissao.set data_inicio        
                      ipt_data_fim_comissao.set    data_fim        
                      find('#IdStatus > option[value="'+value_status.to_s+'"]').select_option
@@ -291,9 +301,13 @@ class MinhaConta < SitePrism::Page
 
     def gravar_dados_convidado
            $execucao.push("#{$nome_faker}#{';'}#{$email_faker}#{';'}#{$pass}#{';'}#{$efetuar_compra}#{';'}#{$acessar_comissoes}#{';'}#{$visu_proprias_comissoes}#{';'}#{$acessar_status_pedido}#{';'}#{$visu_proprios_status}#{';'}#{$criar_convidado}#{';'}#{$limite_compra}#{';'}#{$data_hora}")
+     
            f = File.new("features/support/convidados_novob2b/convidados.txt", "a+")
+     
            $execucao.each { |line| f.puts(line) }
+     
            f.close
+     
            $execucao = []
     end 
 

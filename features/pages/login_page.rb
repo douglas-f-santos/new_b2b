@@ -48,11 +48,13 @@ class Login < SitePrism::Page
            btn_minha_conta.hover
            btn_entrar_login.click
            ipt_email_login.set user
+
            if pass == "SenhaCorreta" then
                   ipt_senha_login.set CONFIG['pass_new']
            else
                   ipt_senha_login.set pass   
            end   
+           
            btn_entrar.click
     end   
 

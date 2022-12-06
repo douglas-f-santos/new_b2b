@@ -110,7 +110,6 @@ class Cadastro < SitePrism::Page
           sleep 0.08
           page.send_keys '04'
           ipt_numero.set end_numero_faker
-
             
           if compl_cob == 'sim' then
                ipt_compl_cob.set 'Em frente as Lojas Renner'
@@ -125,11 +124,11 @@ class Cadastro < SitePrism::Page
                if page.has_css?('input[name="shippingFirstName"]') then
           
                end 
-          
           else  
                sleep 2
                btn_proximo.click 
                sleep 2
+
                if page.has_css?('input[name="shippingFirstName"]') then
           
                end 
@@ -159,9 +158,11 @@ class Cadastro < SitePrism::Page
                 sleep 2
                 btn_proximo.click
                 sleep 2
+
                 if page.has_css?('input[name="faturamentoFirstName"]') then
   
                 end 
+
                 ipt_end_fat_razao.set razao_social_faker
                 ipt_end_fat_telefone.set '11969986677'
                 ipt_end_fat_cep.send_keys '064019'
@@ -172,6 +173,7 @@ class Cadastro < SitePrism::Page
                 if compl_fat == 'sim' then
                       ipt_compl_fat.set 'Próximo ao metro morumbi'
                 end 
+                
           end
    
           sleep 2

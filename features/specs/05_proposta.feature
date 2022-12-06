@@ -38,7 +38,7 @@
          Então a proposta será cancelada com sucesso
       Exemplos:  
          | user                           | url                                                                                                   |                                                                                                                                        
-         | douglas.ferreira@snd.com.br    | https://qa.snd.com.br/microsoft-windows-10-professional-64-bits-9                                    | 
+         | douglas.ferreira@snd.com.br    | https://qa.snd.com.br/microsoft-windows-10-professional-64-bits-9                                     | 
 
       @EditarPropostaCarrinho
       Esquema do Cenário: Editar proposta em carrinho
@@ -50,7 +50,7 @@
          Então a proposta será editada com sucesso
       Exemplos:  
          | user                           | url                                                                                                   |                                                                                                                                        
-         | douglas.ferreira@snd.com.br    | https://qa.snd.com.br/microsoft-windows-10-professional-64-bits-9                                    | 
+         | douglas.ferreira@snd.com.br    | https://qa.snd.com.br/microsoft-windows-10-professional-64-bits-9                                     | 
 
       @ClonarPropostaCarrinho
       Esquema do Cenário: Clonar proposta em carrinho
@@ -62,4 +62,4 @@
          Então a proposta será clonada com sucesso
       Exemplos:  
          | user                           | url                                                                                                   |                                                                                                                                        
-         | douglas.ferreira@snd.com.br    | https://qa.snd.com.br/microsoft-windows-10-professional-64-bits-9                                    | 
+         | douglas.ferreira@snd.com.br    | https://qa.snd.com.br/microsoft-windows-10-professional-64-bits-9                                     | 
