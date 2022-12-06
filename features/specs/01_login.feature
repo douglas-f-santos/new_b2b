@@ -1,7 +1,7 @@
 #language:pt
    @Regressivo_Novo_B2B
    @Login
-   Funcionalidade: Logar no novo B2B
+   Funcionalidade: dsssssssssssss
 
      @EfetuarLoginSucesso
       Esquema do Cenário: Realizar login no novo B2B
